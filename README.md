@@ -22,3 +22,10 @@ Where $P_{eff}(t)$ is dynamically scaled by the spatial curvature vector of the 
 1. **Ecoacoustic Health Diagnostics:** Identifying avian diseases and population aging trends by tracking the `membrane_asymmetry_factor` in reverse-engineered field recordings.
 2. **Bio-Inspired Robotics & Soft Actuators:** Control algorithms for flexible medical endoscopes and soft robotic manipulators.
 3. **Edge Monitoring Networks:** Deploying lightweight physical models on low-power microcontrollers (STM32/ESP32) for autonomous wilderness deployment.
+
+├── ilyukhin_core/         # Математическое ядро (уравнения стержней и осцилляторов)
+├── applications/
+│   ├── bioacoustics/      # Наш симулятор сиринкса и изгиба шеи птицы
+│   ├── soft_robotics/     # Симулятор гибкого манипулятора / медицинского зонда
+│   └── drill_strings/     # Расчет кручения буровой колонны на глубине
+└── README.md              # Главное описание всей платформы
