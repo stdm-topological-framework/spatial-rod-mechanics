@@ -29,3 +29,5 @@ Where $P_{eff}(t)$ is dynamically scaled by the spatial curvature vector of the 
 │   ├── soft_robotics/     # Симулятор гибкого манипулятора / медицинского зонда
 │   └── drill_strings/     # Расчет кручения буровой колонны на глубине
 └── README.md              # Главное описание всей платформы
+
+Analytical Digital Twins for Real-Time Edge Continuum Mechanics(Аналитические цифровые двойники для механики сплошных сред на периферийных устройствах в реальном времени).
