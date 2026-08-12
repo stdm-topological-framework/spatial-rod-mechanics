@@ -69,7 +69,7 @@ Clone the repository and install all required dependencies (including numerical 
 
 ```bash
 # Clone the repository
-git clone https://github.com
+git clone https://github.com/stdm-topological-framework/spatial-rod-mechanics
 cd spatial-rod-mechanics
 
 # Install mathematical and network libraries
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 ### 2. Running the Interactive Simulation (GUI)
 To execute the physical generator with real-time sliders for membrane tension, pressure, and dynamic neck bending, run the visual module:
 ```bash
-python applications/bioacoustics/gui_app.py
+python dynamic_syrinx_system.py
 ```
 *Note: Use the interactive sliders to observe how spatial deformations alter the acoustic spectrum in real-time.*
 
@@ -98,5 +98,5 @@ To simulate the complete decentralized data ingestion pipeline, you need to exec
 ### 4. Running the Inverse Problem Solver (Audio Verification)
 To reverse-engineer a vocalization and extract the hidden mechanical parameters (Tension, Bend, and Feathers absorption), execute the optimization module:
 ```bash
-python applications/bioacoustics/inverse_solver.py
+python spectrogram_vector.py
 ```
