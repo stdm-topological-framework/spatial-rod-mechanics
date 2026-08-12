@@ -123,3 +123,10 @@ This repository delivers the **fundamental mechanical foundation**. It proves th
 
 ## The vocalizations of the Rook
 The vocalizations of the Rook (Corvus frugilegus) consist of harsh, guttural calls commonly described as a coarse "kaah," which are used primarily for intra-flock communication. These vocalizations vary in intensity, ranging from low-pitched conversational sounds to loud, strident alarm calls. According to sources, the sound is often produced in a rhythmic, repeating pattern during mating displays or while foraging in large groups. More detailed information and audio recordings of the acoustic repertoire of this species can be found at Xeno-canto. (https://xeno-canto.org/species/corvus-frugilegus)
+
+---
+
+## Авторы / Authors
+
+* **Александр Моисеенко** (Moiseenko Aleksandr) — *Разработчик / Исследователь* — [Профиль GitHub]([https://github.com](https://github.com/alekssan8183269-lang))
+* **ORCID:** [0009-0006-4124-5954]([https://orcid.org](https://orcid.org/0009-0006-4124-5954))
