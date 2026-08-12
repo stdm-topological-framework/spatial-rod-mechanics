@@ -118,3 +118,8 @@ In a living avian organism, the acoustic output is not a static result of a simp
 
 ### 3. Conclusion for Reviewers
 This repository delivers the **fundamental mechanical foundation**. It proves that Ilyukhin's exact analytical methods can successfully reverse-engineer raw wave vectors to isolate internal tissue state variables without invasive surgery. Refining the acoustic aesthetics by wrapping this physics core into a neural network that mimics avian muscle control loops is left as an open direction for future laboratory-backed research grants.
+
+---
+
+## The vocalizations of the Rook
+The vocalizations of the Rook (Corvus frugilegus) consist of harsh, guttural calls commonly described as a coarse "kaah," which are used primarily for intra-flock communication. These vocalizations vary in intensity, ranging from low-pitched conversational sounds to loud, strident alarm calls. According to sources, the sound is often produced in a rhythmic, repeating pattern during mating displays or while foraging in large groups. More detailed information and audio recordings of the acoustic repertoire of this species can be found at Xeno-canto. (https://xeno-canto.org/species/corvus-frugilegus)
