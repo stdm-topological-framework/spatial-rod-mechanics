@@ -126,7 +126,12 @@ The vocalizations of the Rook (Corvus frugilegus) consist of harsh, guttural cal
 
 ---
 
-## Авторы / Authors
+## Acknowledgments
+Данное программное обеспечение разработано на основе теоретических моделей и научных трудов А. А. Илюхина в области механики деформируемого твердого тела.
+
+---
+
+## Authors
 
 * **Александр Моисеенко** (Moiseenko Aleksandr) — *Разработчик / Исследователь* — [Профиль GitHub] [https://github.com](https://github.com/alekssan8183269-lang)
 * **ORCID:** [0009-0006-4124-5954] [https://orcid.org](https://orcid.org/0009-0006-4124-5954)
