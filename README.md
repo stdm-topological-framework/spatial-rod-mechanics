@@ -54,8 +54,7 @@ The geometric and constitutive equations inside this repository are numerical im
 2. **"Analytical Mechanics of Spatially Deformable Continuums"** — Utilized to define the moving coordinate systems (Darboux-Frenet frames) that trace the dynamic curvature $\kappa(s, t)$ of the vocal tract and flexible actuators in real-time.
 
 ### From Pure Mathematics to Edge Computing:
-Professor Ilyukhin was a pure theoretical mathematician who solved the most complex non-linear spatial boundary problems on paper. This repository evolves his analytical heritage by converting exact, heavy closed-form solutions into lightweight, fast-converging ordinary differential equations (ODEs). 
-
+Professor Ilyukhin is an expert in pure theoretical mathematics, solving the most complex non-linear spatial boundary problems on paper. This repository evolves his analytical heritage by converting exact, heavy closed-form solutions into lightweight, fast-converging ordinary differential equations (ODEs).
 By replacing massive finite-element analysis (FEA) with Ilyukhin's targeted non-linear analytical mechanics, we enable low-power microcontrollers (such as STM32/ESP32) to compute complex continuum mechanics on the edge with zero latency.
 
 ---
