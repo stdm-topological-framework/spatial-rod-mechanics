@@ -128,5 +128,5 @@ The vocalizations of the Rook (Corvus frugilegus) consist of harsh, guttural cal
 
 ## Авторы / Authors
 
-* **Александр Моисеенко** (Moiseenko Aleksandr) — *Разработчик / Исследователь* — [Профиль GitHub]([https://github.com](https://github.com/alekssan8183269-lang))
-* **ORCID:** [0009-0006-4124-5954]([https://orcid.org](https://orcid.org/0009-0006-4124-5954))
+* **Александр Моисеенко** (Moiseenko Aleksandr) — *Разработчик / Исследователь* — [Профиль GitHub] [https://github.com](https://github.com/alekssan8183269-lang)
+* **ORCID:** [0009-0006-4124-5954] [https://orcid.org](https://orcid.org/0009-0006-4124-5954)
