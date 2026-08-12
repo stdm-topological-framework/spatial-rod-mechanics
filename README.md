@@ -58,3 +58,45 @@ Professor Ilyukhin was a pure theoretical mathematician who solved the most comp
 
 By replacing massive finite-element analysis (FEA) with Ilyukhin's targeted non-linear analytical mechanics, we enable low-power microcontrollers (such as STM32/ESP32) to compute complex continuum mechanics on the edge with zero latency.
 
+---
+
+## Installation and Execution Guide
+
+This framework is built using Python 3.8+. To ensure cross-platform compatibility and eliminate configuration issues, follow the structured setup guide below.
+
+### 1. Environment Setup
+Clone the repository and install all required dependencies (including numerical solvers and network modules) via `pip` using the provided configuration file:
+
+```bash
+# Clone the repository
+git clone https://github.com
+cd spatial-rod-mechanics
+
+# Install mathematical and network libraries
+pip install -r requirements.txt
+```
+
+### 2. Running the Interactive Simulation (GUI)
+To execute the physical generator with real-time sliders for membrane tension, pressure, and dynamic neck bending, run the visual module:
+```bash
+python applications/bioacoustics/gui_app.py
+```
+*Note: Use the interactive sliders to observe how spatial deformations alter the acoustic spectrum in real-time.*
+
+### 3. Running the Edge-IoT Pipeline (Streaming Telemetry)
+To simulate the complete decentralized data ingestion pipeline, you need to execute the server and the transmitter in two separate terminal instances:
+
+* **Step A: Start the Laboratory Ingestion Server** (Listens on port 8080 for incoming physical JSON packets):
+  ```bash
+  python server.py
+  ```
+* **Step B: Start the Edge IoT Transmitter** (Solves the non-linear ODEs, extracts metrics, and streams telemetry):
+  ```bash
+  python iot_transmitter.py
+  ```
+
+### 4. Running the Inverse Problem Solver (Audio Verification)
+To reverse-engineer a vocalization and extract the hidden mechanical parameters (Tension, Bend, and Feathers absorption), execute the optimization module:
+```bash
+python applications/bioacoustics/inverse_solver.py
+```
