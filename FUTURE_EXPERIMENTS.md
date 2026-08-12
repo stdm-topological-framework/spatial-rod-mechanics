@@ -21,6 +21,44 @@ To isolate fluid-structure interactions and geometric deformations without biolo
 
 ~~~
 
+~~~
++-----------------------------------------------------------------------------------+
+
+|                     PATH A: ENGINEERING VALIDATION ARCHITECTURE                   |
++-----------------------------------------------------------------------------------+
+                                                                                     
+  [ Digital Air Compressor ]                                                         
+             │                                                                       
+             │ (Pneumatic Flow)                                                      
+             ▼                                                                       
+  [ Mass Flow & Electronic Pressure Sensor (P) ] ───┐                                
+             │                                      │                                
+             ▼                                      │                                
+  [ 3D Bifurcated Rigid Syrinx Framework ]          │                                
+             │                                      │ (Telemetry Sensors Data)       
+             ├─ (Left Membrane)  ◄── [ Tension kL ]─┤                                
+             ├─ (Right Membrane) ◄── [ Tension kR ]─┤                                
+             │                                      │                                
+             ▼                                      │                                
+  [ Elastomeric Polyurethane Trachea (Elastic Rod) ]│                                
+             │                                      │                                
+             ├─ (Spatial Curvature) ◄─ [ Servos ]───┤                                
+             ▼                                      │                                
+  [Anechoic Acoustic Chamber]                       │                                
+             │                                      │                                
+             ├─ [ Reference Microphone ] ───────────┤                                
+             ▼                                      ▼                                
+      (Raw .WAV Waveform)              [ Central Edge-IoT MCU ]                      
+             │                           (ESP32 / STM32 Processor)                   
+             │                                      │                                
+             │                                      ├── Runs: solver_dynamic.py     
+             ▼                                      ▼                                
+  [ Target Laboratory Host ] ◄──────────────────────┘                                
+    (Global Error Convergence)    (Extracted Real-Time Parameters JSON Payload)      
+                                                                                     
++-----------------------------------------------------------------------------------+
+~~~
+
 ---
 
 ### 1. Hardware Architecture & Assembly
